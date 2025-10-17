@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: purna8074/docker-act:latest
+    image: purna8074/docker-actf:latest
     container_name: springboot
     ports:
       - "2003:2002"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: purna8074/docker-act:latest
+    image: purna8074/docker-actb:latest
     container_name: react
     ports:
       - "3000:80"
