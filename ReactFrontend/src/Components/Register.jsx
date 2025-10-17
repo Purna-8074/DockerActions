@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ListData from "./ListData";
- 
+import "./Reg.css";
 import axios from "axios";
 import config from "./Config";
 
